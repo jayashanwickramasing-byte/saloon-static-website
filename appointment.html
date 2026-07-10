@@ -1,0 +1,39 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Saloon</title>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        h2 {
+            color: rgb(2, 255, 48);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="boys.html">Gents</a>
+        <a href="girls.html">Ladies</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+</body>
+<h2>Book an Appointment</h2>
+<form id="apptForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="date" required>
+    <select required>
+                <option value="" disabled selected>Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+    document.getElementById("apptForm").onsubmit = function() {
+        alert("Your appointment request received!");
+    };
+</script>

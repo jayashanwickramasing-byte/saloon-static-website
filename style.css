@@ -1,0 +1,149 @@
+
+body {
+    background-color: #000000; 
+    color: #dbcccc;           
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.contact-page {
+    background-image: url('images/logo2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    background: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+nav a {
+    color: #ffd000;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+body {
+    background-image: url('images/logo3.jpg');
+    background-size: cover;      
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    color: rgba(255, 255, 255, 0.97);                 
+}
+
+
+.service-list {
+    background-color: rgba(241, 241, 241, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+.girls-page {
+    background-image: url('images/background7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(129, 1, 136);
+}
+
+
+.girls-page .service-list {
+    background-color: rgba(218, 202, 202, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+  
+        .content-container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: rgba(0, 0, 0, 0.85); 
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 8px 30px rgba(189, 161, 161, 0.2);
+            color: #f5f5f5;
+        }
+
+        h2 { color: #4283c4; border-bottom: 2px solid #ffd700; display: inline-block; }
+        h3 { color: #d35400; }
+        
+        ul { list-style: none; padding: 0; }
+        li { 
+            background: rgba(255, 255, 255, 0.5);
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 5px solid #ffd700;
+            border-radius: 5px;
+        }
+.services-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('images/background4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
+h1 { text-align: center; }
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.price {
+    font-weight: bold;
+    color: #001eff; 
+}
+
+.service-list .item {
+    color: #000000; 
+    font-weight: bold;
+}
+/* Google Fonts ආනයනය කිරීම */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* වෙබ් පිටුව පුරා අකුරු මෝස්තරය යෙදීම */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6; /* අකුරු පේළි අතර පරතරය */
+    color: #ffffff;      /* අකුරු වල පාට */
+}
+
+/* මාතෘකා (Headings) සඳහා වෙනම මෝස්තරයක් */
+h1, h2, h3 {
+    font-family: '', sans-serif;
+    font-weight: 600;
+}
+.main-title {
+    font-size: 2.5rem;
+    color: #fdd705;
+    text-decoration: underline;
+    text-align: center;
+}

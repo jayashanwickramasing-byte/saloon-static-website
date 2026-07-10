@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaya Saloon - Contact Us</title>
+    <link rel="stylesheet" href="style.css"> 
+    
+    
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="boys.html">Gents</a>
+        <a href="girls.html">Ladies</a>
+        <a href="appointment.html">Appointment</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+    <section>
+        <h2><strong>Contact Us</strong></h2>
+        <p>If you have any <strong>questions, concerns, or inquiries</strong>, please feel free to use the form below to reach out to us.</p>
+        
+        <form id="contactForm">
+            <label for="name"><strong>Name:</strong></label><br>
+            <input type="text" id="name" name="name" required style="width: 30%;"><br><br>
+
+            <label for="email"><strong>Email Address:</strong></label><br>
+            <input type="email" id="email" name="email" required style="width: 30%;"><br><br>
+
+            <label for="message"><strong>Message:</strong></label><br>
+            <textarea id="message" name="message" rows="4" style="width: 30%;" required></textarea><br><br>
+
+            <button type="submit"><strong>Submit</strong></button>
+        </form>
+    </section>
+
+    <script>
+        document.getElementById("contactForm").onsubmit = function(event) {
+            event.preventDefault(); 
+            alert("Your message has been received. Thank you!");
+        };
+    </script>
+</body>
+</html>
